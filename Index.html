@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/Normalize.css">
+    <link rel="stylesheet" href="/style/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <title>Roshify</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header  ">
+        <div class="container grid grid--1x2">
+            <span class="brand">Roshify.</span>
+            <nav class="nav-menu">
+                <a href="#">Home</a>
+                <a href="/pages/features.html">Features</a>
+                <a href="/pages/docs.html">Docs</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section class="block-hero">
+        <div class="container grid ">
+            <div class="block" data-aos="fade-right" data-aos-duration="500">
+                <span class="block-heading">Easier Deployment</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit dicta molestias
+                    esse.
+                    Reiciendis numquam error dicta blanditiis porro ea!</p>
+                <a href="/pages/features.html" class="button button--border">Read More</a>
+            </div>
+
+            <form class="demo" data-aos="fade-left" data-aos-duration="500">
+                <p class="request">Request a Demo</p>
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Company Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="submit" value="Send" class="button button--dark">
+
+            </form>
+        </div>
+
+    </section>
+    <section class="info" data-aos="fade-up">
+        <div class="container">
+            <div class="info__block1">
+                <p>Welcome to the best platform for building applications of all types with modern architecture and
+                    scaling
+                </p>
+            </div>
+            <div class="info__block2 grid">
+                <div class="info__block2__container grid">
+                    <svg class="icon">
+                        <use xlink:href="icons/sprite.svg#harddrive"></use>
+                    </svg>
+                    <span class="numbers">10,349,405
+                    </span>
+                    <span class="tag">Deployment</span>
+                </div>
+                <div class="info__block2__container grid">
+                    <svg class="icon">
+                        <use xlink:href="icons/sprite.svg#upload"></use>
+                    </svg>
+                    <span class="numbers">987 TB
+                    </span>
+                    <span class="tag">Published</span>
+                </div>
+                <div class="info__block2__container grid">
+                    <svg class="icon">
+                        <use xlink:href="icons/sprite.svg#project"></use>
+                    </svg>
+                    <span class="numbers">2,343,265
+
+                    </span>
+                    <span class="tag">Projects</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info__block3 ">
+            <div class="container grid grid--1x2">
+                <img src="/icons/cli.png" alt="" class="info__image">
+                <div class="grid">
+                    <span class="info1">Easy to use cross platform CLI</span>
+                    <span class="info1">Deploy in seconds</span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="hosting " data-aos="fade-up" data-aos-duration="500">
+        <div class="cloud-hosting grid grid--1x2 container">
+            <div class="block">
+                <h1 class="block-heading">Extreme Cloud Hosting</h1>
+                <p>Cloud hosting like you've never seen. Fast, efficient and scalable</p>
+                <a href="#" class="button button--dark">Read More</a>
+            </div>
+
+            <svg class="icon">
+                <use xlink:href="icons/sprite.svg#download"></use>
+            </svg>
+        </div>
+    </section>
+
+
+
+    <section class="languages">
+        <h2 class="block-heading">Supported Lanugaes</h2>
+        <div class="container grid">
+            <div class="language-box grid">
+                <span class="tag">Node.js</span>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#node"></use>
+                </svg>
+            </div>
+            <div class="language-box grid">
+                <span class="tag">Node.js</span>
+                <img src="/icons/python.png" alt="" class="icon">
+            </div>
+            <div class="language-box grid">
+                <span class="tag">Node.js</span>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#csharp"></use>
+                </svg>
+            </div>
+            <div class="language-box grid">
+                <span class="tag">Node.js</span>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#ruby"></use>
+                </svg>
+            </div>
+            <div class="language-box grid">
+                <span class="tag">Node.js</span>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#php
+                    "></use>
+                </svg>
+            </div>
+            <div class="language-box grid">
+                <span class="tag">Node.js</span>
+                <img src="/icons/scala.png" alt="" class="icon">
+            </div>
+
+            <!--If there are odd no of languages then put last__block class in the last one-->
+            <div class="language-box grid last__block">
+                <span class="tag">Node.js</span>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#clojure
+                    "></use>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <span class="brand">Roshify</span>
+                <p class="copyright">Copyright &copy 2022</p>
+            </div>
+            <div class="grid">
+                <a href="#">Home</a>
+                <a href="/pages/features.html">Features</a>
+                <a href="#">Docs</a>
+            </div>
+            <div>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#instagram"></use>
+                </svg>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#facebook "></use>
+                </svg>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#twitter"></use>
+                </svg>
+                <svg class="icon">
+                    <use xlink:href="icons/sprite.svg#github"></use>
+                </svg>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+
+
+</body>
+
+</html>

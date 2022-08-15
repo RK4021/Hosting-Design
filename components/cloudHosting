@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="cloud-hosting grid grid--1x2">
+        <div class="block">
+            <h1>XYZ</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit dicta molestias esse.
+                Reiciendis numquam error dicta blanditiis porro ea!</p>
+        </div>
+
+        <div class="image-container">
+            <img src="/images/cloud-data-download-icon.svg" alt="">
+        </div>
+    </div>
+</div>

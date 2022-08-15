@@ -1,0 +1,7 @@
+<div class="demo">
+    <p class="request">Request a Demo</p>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Company Name">
+    <input type="email" placeholder="Email">
+    <div><button class="send">Send</button></div>
+</div>

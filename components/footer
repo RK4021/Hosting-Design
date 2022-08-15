@@ -1,0 +1,25 @@
+<footer class="footer">
+    <div class="container">
+        <div>
+            <span class="brand">Roshify</span>
+            <p class="copyright">Copyright &copy 2022</p>
+        </div>
+        <div class="grid">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Docs</a>
+        </div>
+        <div>
+            <svg class="icon">
+                <use xlink:href="icons/sprite.svg#upload"></use>
+            </svg>
+            <svg class="icon">
+                <use xlink:href="icons/sprite.svg#upload"></use>
+            </svg>
+            <svg class="icon">
+                <use xlink:href="icons/sprite.svg#upload"></use>
+            </svg>
+        </div>
+    </div>
+
+</footer>

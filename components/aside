@@ -1,0 +1,20 @@
+<aside>
+
+    <div class="block essential">
+        <span class="block__heading">Essentials</span>
+        <ul class="list">
+            <li><a href="#" class="link">Introduction</a></li>
+            <li><a href="#" class="link">About Loruki</a></li>
+            <li><a href="#" class="link">Installation</a></li>
+        </ul>
+    </div>
+    <div class="block deployment">
+        <span class="block__heading">Deployment</span>
+        <ul class="list">
+            <li><a href="#" class="link">Setting up a container</a></li>
+            <li><a href="#" class="link">Using the CLI</a></li>
+            <li><a href="#" class="link">Managing resources</a></li>
+            <li><a href="#" class="link">Upgrade & downgrade</a></li>
+        </ul>
+    </div>
+</aside>

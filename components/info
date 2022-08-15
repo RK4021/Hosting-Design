@@ -1,0 +1,9 @@
+<div class="info grid">
+    <svg class="icon">
+        <use xlink:href="icons/sprite.svg#harddrive"></use>
+    </svg>
+    <span class="numbers">10,349,405
+    </span>
+    <span class="tag">Deployment</span>
+
+</div>

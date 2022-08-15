@@ -1,0 +1,9 @@
+    <div class="info-block-3 ">
+        <div class="container grid grid--1x2">
+            <img src="/icons/cli.png" alt="" class="info__image">
+            <div class="grid">
+                <span class="info1">Easy to use cross platform CLI</span>
+                <span class="info1">Deploy in seconds</span>
+            </div>
+        </div>
+    </div>

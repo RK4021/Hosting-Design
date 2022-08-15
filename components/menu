@@ -1,0 +1,7 @@
+<div class="menu">
+    <nav class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Docs</a>
+    </nav>
+</div>

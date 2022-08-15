@@ -1,0 +1,11 @@
+<header class="header  ">
+    <div class="container grid grid--1x2">
+        <span class="brand">Roshify.</span>
+        <nav class="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Docs</a>
+        </nav>
+    </div>
+
+</header>

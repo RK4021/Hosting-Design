@@ -1,0 +1,20 @@
+<div class="block-hero">
+    <div class="container grid ">
+        <div class="block">
+            <span class="block-heading">Easier Deployment</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit dicta molestias
+                esse.
+                Reiciendis numquam error dicta blanditiis porro ea!</p>
+            <a href="#" class="button button--border">Read More</a>
+        </div>
+
+        <div class="demo">
+            <p class="request">Request a Demo</p>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Company Name">
+            <input type="email" placeholder="Email">
+            <div><button class="send">Send</button></div>
+        </div>
+    </div>
+
+</div>
